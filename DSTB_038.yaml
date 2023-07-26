@@ -1,0 +1,40 @@
+proxies:
+- name: Danu37_LiveNata38a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 38e2ac25-e775-43af-a577-e66c2b607c87
+  udp: true
+  sni: nata1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nata1.myserver-prem.cloud
+- name: Danu37_LiveNata38b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: 38e2ac25-e775-43af-a577-e66c2b607c87
+  udp: true
+  sni: nata1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nata1.myserver-prem.cloud
+- name: Danu37_LiveNata38c
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 38e2ac25-e775-43af-a577-e66c2b607c87
+  udp: true
+  sni: nata1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nata1.myserver-prem.cloud
