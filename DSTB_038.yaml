@@ -1,43 +1,43 @@
 proxies:
-- name: Danu37_LiveNata38a
+- name: Danu37_LiveBiznet38_1
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 38e2ac25-e775-43af-a577-e66c2b607c87
+  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
   udp: true
-  sni: nata1.myserver-prem.cloud
+  sni: biznet2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nata1.myserver-prem.cloud
-- name: Danu37_LiveNata38b
+      Host: biznet2.myserver-prem.cloud
+- name: Danu37_LiveBiznet38_2
   type: trojan
   server: 172.67.139.111
   port: 443
-  password: 38e2ac25-e775-43af-a577-e66c2b607c87
+  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
   udp: true
-  sni: nata1.myserver-prem.cloud
+  sni: biznet2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nata1.myserver-prem.cloud
-- name: Danu37_LiveNata38c
+      Host: biznet2.myserver-prem.cloud
+- name: Danu37_LiveBiznet38_3
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: 38e2ac25-e775-43af-a577-e66c2b607c87
+  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
   udp: true
-  sni: nata1.myserver-prem.cloud
+  sni: biznet2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nata1.myserver-prem.cloud
+      Host: biznet2.myserver-prem.cloud
 - name: DanuBackup_LiveDOa
   type: trojan
   server: 104.21.8.121
