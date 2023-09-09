@@ -1,7 +1,7 @@
 proxies:
 - name: Laviana5_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: fb34ff5b-8801-4665-b2cc-f9b314c72e39
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: danu529.foryou-ssh.my.id
 - name: Danu37_LiveBiznet38_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 881f183c-d751-4c8c-9f5b-3f01d586197b
   udp: true
@@ -27,7 +27,7 @@ proxies:
       Host: biznet2.myserver-prem.cloud
 - name: Danu37_LiveBiznet38_2
   type: trojan
-  server: 172.67.139.111
+  server: circles.asia
   port: 443
   password: 881f183c-d751-4c8c-9f5b-3f01d586197b
   udp: true
