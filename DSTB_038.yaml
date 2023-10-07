@@ -1,18 +1,5 @@
 proxies:
-- name: NafaLavianaNusa_LiveNusa_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 84d284fb-0013-4a2b-aa6f-7783b0bf88e2
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
-- name: Laviana5_LiveDO_1
+- name: Laviana5Do1A_Live_H1
   type: trojan
   server: circles.asia
   port: 443
@@ -25,7 +12,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: TrojanWsSvr-Live_1
+- name: TrojanWsDo1C-Live_H1
   type: trojan
   server: circles.asia
   port: 443
